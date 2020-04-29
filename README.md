@@ -63,7 +63,7 @@ Let's start using database migrations in our case study application and update t
 rails g migration add_published_status_to_posts published_status:string --no-test-framework
 ```
 
-In the terminal you will see it creates a migration file for us: `db/migrate/20151127174031_add_published_status_to_posts.rb`. Since migration file names need to be unique, the generator prepends a timestamp before the file name. In the case of the migration I just ran, it added `20151127174031`. You can break this timestamp down as follows: `year: 2015, month: 11, date: 27, and then the time itself`.
+In tthe terminal you will see it creates a migration file for us: `db/migrate/20151127174031_add_published_status_to_posts.rb`. Since migration file names need to be unique, the generator prepends a timestamp before the file name. In the case of the migration I just ran, it added `20151127174031`. You can break this timestamp down as follows: `year: 2015, month: 11, date: 27, and then the time itself`.
 
 Ready to see something pretty cool? Open up the file it created, which you can find in the `db/migrate` directory. It should look something like this:
 
